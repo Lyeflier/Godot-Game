@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/LevelBackdrop.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Match 3 Assets/UI/Level Select/Level Select 2.png" type="Texture" id=2]
+
+[node name="Level2Backdrop" instance=ExtResource( 1 )]
+texture = ExtResource( 2 )
+
+[node name="LevelButton" parent="." index="0"]
+position = Vector2( 160, 196 )
+
+[node name="LevelButton2" parent="." index="1"]
+position = Vector2( 376, 184 )
+
+[node name="LevelButton3" parent="." index="2"]
+position = Vector2( 512, 328 )
+
+[node name="LevelButton4" parent="." index="3"]
+position = Vector2( 328, 460 )
+
+[node name="LevelButton5" parent="." index="4"]
+position = Vector2( 84, 396 )
